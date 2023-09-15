@@ -1,10 +1,9 @@
-import  Component  from './Component';
-
+import SideNav from "./Components/SideNav/sideNav";
 function App() {
   const time = new Date().toLocaleDateString();
   return (
     <div className="App">
-      <Component/>
+      <SideNav/>
     </div>
   );
 }
